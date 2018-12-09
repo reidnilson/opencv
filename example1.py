@@ -13,3 +13,6 @@ assert img is not None
 print('read {}'.format(params.path))
 print('shape:',img.shape)
 print('dtype:',img.dtype)
+
+# Commit
+# W00T
