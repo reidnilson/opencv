@@ -1,0 +1,67 @@
+Git workflow:
+
+Clone the repository:
+
+git clone <URL>
+
+Compare changes:
+
+git diff
+
+Work on files, add them for staging
+
+git add <file>
+
+Get the status:
+
+git status
+
+Compare changes for staged files:
+
+git diff --staging
+
+Commit the changes:
+
+git commit -m "Comments"
+
+Push to the remote repo:
+
+git push origin master
+
+Remove the repo:
+
+git remote remove <shortname>
+
+---------------------------------------------------
+Add a remote:
+
+git remote add origin https://github.com/reidnilson/opencv
+
+Checkout master:
+
+git checkout remotes/origin/master
+
+Create a branch:
+
+git checkout -b New-Branch
+
+List branches:
+
+git branch -l
+
+Current branch:
+
+git branch
+
+Cloning a branch, automatically adds the origin remote
+git clone <link>
+
+To explicitly add a remote repo with a shortname
+git remote add <shortname> https://github.com/reidnilson/opencv.git
+
+To fetch everything 
+git fetch <shortname>
+
+A git pull will automatically try to merge code
+git pull origin master
+
